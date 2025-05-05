@@ -128,7 +128,7 @@ const Review = () => {
   // This key is exposed to anyone visiting your website.
   // Use a backend server or serverless function to handle API calls securely.
   const getscrapdata = 'https://crm-backend-msk3.onrender.com/searchapp/admin/trigger-scrape'; // Replace with your actual key ONLY for local testing if absolutely necessary, but ideally fetch from backend/env var
-  const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBAJXBYNLTWYcG5PRp1jUpNxgs1GzD1lTk`;
+  const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDBVXJhcidMg1VvRv1VPWKoDSpTr7OAejs`;
 
   // Load chat history from localStorage
   useEffect(() => {
