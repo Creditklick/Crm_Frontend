@@ -71,7 +71,7 @@ function Contact({
         setIsLoadingRemarks(true);
         setErrorRemarks(null);
         try {
-            const response = await axios.get(`http://172.16.0.20:8000/searchapp/remarkjson`, {
+            const response = await axios.get(`https://crm-backend-msk3.onrender.com/searchapp/remarkjson`, {
                 params: { stefto_id: stefto_id } 
             });
             console.log("remark data",response.data.data);

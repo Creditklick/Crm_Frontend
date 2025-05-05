@@ -42,7 +42,7 @@ function ShowDetails({ isactive, objectdata }) {
   const Payment_history_Noti = async () => {
     try {
       const response = await axios.get(
-        `http://172.16.0.20:8000/alphaselector/api/payment/${stefto_id}/GetPayment_History`
+        `https://crm-backend-msk3.onrender.com/alphaselector/api/payment/${stefto_id}/GetPayment_History`
       );
       console.log("Get all payment history ", response.data.data);
       setPaymentNotification(response?.data?.data);
@@ -66,7 +66,7 @@ function ShowDetails({ isactive, objectdata }) {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "http://172.16.0.20:8000/searchapp/persona",
+        "https://crm-backend-msk3.onrender.com/searchapp/persona",
         {
           params: { stefto_id: stefto_id },
           headers: {
@@ -86,7 +86,7 @@ function ShowDetails({ isactive, objectdata }) {
     const token = localStorage.getItem("token");
     try {
       const response = await axios.post(
-        "http://172.16.0.20:8000/searchapp/addremarks",
+        "https://crm-backend-msk3.onrender.com/searchapp/addremarks",
         {
           stefto_id: stefto_id,
           remarks: remarks,
@@ -219,7 +219,7 @@ function ShowDetails({ isactive, objectdata }) {
   const handleUpdateNumber = async () => {
     try {
       await axios.post(
-        `http://172.16.0.20:8000/searchapp/persona/${stefto_id}/Update_Number/`,
+        `https://crm-backend-msk3.onrender.com/searchapp/persona/${stefto_id}/Update_Number/`,
         { updatedNumber }
       );
 
@@ -242,7 +242,7 @@ function ShowDetails({ isactive, objectdata }) {
     }
     try {
       const response = await axios.post(
-        "http://172.16.0.20:8000/searchapp/notification/api/v1",
+        "https://crm-backend-msk3.onrender.com/searchapp/notification/api/v1",
         {
           status: status,
           selectedDate: selectedDate,
@@ -278,7 +278,7 @@ function ShowDetails({ isactive, objectdata }) {
 
   const handleUpisend = async () => {
     try {
-      await axios.get(`http://172.16.0.20:8000/card-info/${stefto_id}/`);
+      await axios.get(`https://crm-backend-msk3.onrender.com/card-info/${stefto_id}/`);
 
       alert("Message sent successfully");
     } catch (error) {
@@ -329,7 +329,7 @@ function ShowDetails({ isactive, objectdata }) {
     }
 
     try {
-      await axios.post(`http://172.16.0.20:8000${endpoint}`, {
+      await axios.post(`https://crm-backend-msk3.onrender.com${endpoint}`, {
         amount: inputValue,
       });
 

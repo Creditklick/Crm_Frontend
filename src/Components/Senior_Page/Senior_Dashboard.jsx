@@ -50,7 +50,7 @@
 //     setLoading(true);
 //     try {
 //       const response = await axios.get(
-//         `http://172.16.0.20:8000/alphaselector/senior/getAgentsReportedTo/`,
+//         `https://crm-backend-msk3.onrender.com/alphaselector/senior/getAgentsReportedTo/`,
 //         {
 //           headers: {
 //             "Content-Type": "application/json",
@@ -92,7 +92,7 @@
 
 //     try {
 //       const response = await axios.get(
-//         `http://172.16.0.20:8000/alphaselector/api/payment/${steftoNo}/GetPayment_History`,
+//         `https://crm-backend-msk3.onrender.com/alphaselector/api/payment/${steftoNo}/GetPayment_History`,
 //         {
 //           headers: {
 //             "Content-Type": "application/json",

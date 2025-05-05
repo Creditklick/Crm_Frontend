@@ -6,7 +6,7 @@ export const handleLogout = async (setIsAuthenticated,navigate) => {
     console.log("token is ",token);
     try {
 
-     const response = await axios.post('http://172.16.0.20:8000/searchapp/api/user/logout',{},
+     const response = await axios.post('https://crm-backend-msk3.onrender.com/searchapp/api/user/logout',{},
        {
          headers: {
            'Content-Type': 'application/json',

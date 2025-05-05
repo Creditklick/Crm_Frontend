@@ -127,7 +127,7 @@ const Review = () => {
   // NEVER embed API keys directly in your frontend code like this.
   // This key is exposed to anyone visiting your website.
   // Use a backend server or serverless function to handle API calls securely.
-  const getscrapdata = 'http://localhost:8000/searchapp/admin/trigger-scrape'; // Replace with your actual key ONLY for local testing if absolutely necessary, but ideally fetch from backend/env var
+  const getscrapdata = 'https://crm-backend-msk3.onrender.com/searchapp/admin/trigger-scrape'; // Replace with your actual key ONLY for local testing if absolutely necessary, but ideally fetch from backend/env var
   const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBAJXBYNLTWYcG5PRp1jUpNxgs1GzD1lTk`;
 
   // Load chat history from localStorage
@@ -243,7 +243,7 @@ const Review = () => {
       const token = localStorage.getItem('token');
       
       // Step 1: Trigger web scraping
-      const scrapeResponse = await axios.post('http://localhost:8000/searchapp/admin/trigger-scrape');
+      const scrapeResponse = await axios.post('https://crm-backend-msk3.onrender.com/searchapp/admin/trigger-scrape');
        console.log("data is ",scrapeResponse.data.data);
       if (!scrapeResponse.data.success) {
         throw new Error('Scraping failed: ' + scrapeResponse.data.message);
@@ -771,7 +771,7 @@ export default Review;
 //   const [loading, setLoading] = useState({ chat: false, scrape: false });
 //   const [error, setError] = useState(null);
 //   const chatEndRef = useRef(null);
-//   const SCRAPE_API_URL = 'http://localhost:8000/searchapp/admin/trigger-scrape';
+//   const SCRAPE_API_URL = 'https://crm-backend-msk3.onrender.com/searchapp/admin/trigger-scrape';
 //   const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyBAJXBYNLTWYcG5PRp1jUpNxgs1GzD1lTk`;
 
 //   // ---------------------- Auto-Scroll Setup ----------------------

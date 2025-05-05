@@ -97,7 +97,7 @@ function SeniorDashboard() {
       setLoading(true);
       const token = localStorage.getItem("token");
       try{
-                const response = await axios.get('http://172.16.0.20:8000/alphaselector/senior/getAgentsReportedTo/',{
+                const response = await axios.get('https://crm-backend-msk3.onrender.com/alphaselector/senior/getAgentsReportedTo/',{
                     headers : {
                          'Content-Type' : 'application/json',
                          'Authorization' : `Bearer ${token}`
@@ -129,7 +129,7 @@ function SeniorDashboard() {
       setLoading(true);
        const token = localStorage.getItem('token');
       try{
-        const response = await axios.get('http://172.16.0.20:8000/alphaselector/senior/api/v1/notification/', {
+        const response = await axios.get('https://crm-backend-msk3.onrender.com/alphaselector/senior/api/v1/notification/', {
           params: {
             employee_code: employee_id
           },
@@ -175,7 +175,7 @@ function SeniorDashboard() {
 
           const token = localStorage.getItem('token');
           try{
-            const response = await axios.get('http://172.16.0.20:8000/alphaselector/senior/api/v1/notification/', {
+            const response = await axios.get('https://crm-backend-msk3.onrender.com/alphaselector/senior/api/v1/notification/', {
               params: {
                 employee_code: employee_id
               },

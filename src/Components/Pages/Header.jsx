@@ -82,7 +82,7 @@ const Header = ({
     const token = localStorage.getItem("token");
     try {
       const response = await axios.get(
-        "http://172.16.0.20:8000/searchapp/notification/api/v1/all",
+        "https://crm-backend-msk3.onrender.com/searchapp/notification/api/v1/all",
         {
           headers: {
             "content-type": "application/json",

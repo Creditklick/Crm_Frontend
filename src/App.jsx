@@ -86,7 +86,7 @@
     
 //     try {
 //       console.log("call handleSearch Button");
-//       const res = await axios.get("http://172.16.0.20:8000/searchapp/getUserData", {
+//       const res = await axios.get("https://crm-backend-msk3.onrender.com/searchapp/getUserData", {
 //         params: {
 //             Name_query: fullName,
 //             Account_Number_query: acNumber,
@@ -427,7 +427,7 @@ function App() {
 
   const handleSearch = async (token) => {
     try {
-      const res = await axios.get("http://172.16.0.20:8000/searchapp/getUserData", {
+      const res = await axios.get("https://crm-backend-msk3.onrender.com/searchapp/getUserData", {
         params: {
           Name_query: searchParams.fullName,
           Account_Number_query: searchParams.acNumber,
