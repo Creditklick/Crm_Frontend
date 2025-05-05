@@ -10,9 +10,9 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
+} from "@/Components/ui/table";
 import { Button } from "@/Components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/Components/ui/card";
 import { PhoneOutgoing } from "lucide-react";
 import { FaSort, FaSortUp, FaSortDown } from "react-icons/fa";
 import { ClickAwayListener } from "@mui/material";

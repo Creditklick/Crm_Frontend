@@ -8,7 +8,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/Components/ui/card";
 import {
   Select,
   SelectContent,
@@ -17,17 +17,17 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "@/Components/ui/select";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Badge } from "@/components/ui/badge";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+} from "@/Components/ui/popover";
+import { Input } from "@/Components/ui/input";
+import { Label } from "@/Components/ui/label";
+import { Badge } from "@/Components/ui/badge";
+import { ScrollArea } from "@/Components/ui/scroll-area";
+import { Alert, AlertDescription, AlertTitle } from "@/Components/ui/alert";
 
 import {
   Bell,

@@ -3,8 +3,8 @@ import { MdEmail, MdLocationOn, MdPhone } from 'react-icons/md';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 import { Button } from "@/Components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
+import { Card, CardContent } from "@/Components/ui/card";
+import { Input } from "@/Components/ui/input";
 
 
 function Senior_Footer() {

@@ -5,7 +5,7 @@ import {
   CardDescription,
   CardContent,
   CardFooter,
-} from "@/components/ui/card";
+} from "@/Components/ui/card";
 import { Button } from "@/Components/ui/button";
 import { FaUserTie } from "react-icons/fa";
 import { useEffect , useState , useCallback } from "react";

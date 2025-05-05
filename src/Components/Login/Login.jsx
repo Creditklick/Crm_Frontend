@@ -11,8 +11,8 @@ import { Navigate } from 'react-router-dom';
 import axios from "axios";
 import "./Login.css";
 import { Button } from "@/Components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Input } from "@/Components/ui/input";
+import { Label } from "@/Components/ui/label";
 import { Loader2 } from "lucide-react";
 
 

@@ -154,7 +154,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Button } from "@/Components/ui/button";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { ScrollArea } from "@/Components/ui/scroll-area";
 import ShowDetails from './ShowDetails'; // Your component to show details
 
 // Import lucide-react icons
@@ -290,7 +290,7 @@ export default Persona;
 // import { motion } from 'framer-motion'; // For animations
 // import { Link } from 'react-router-dom'; // For the Back button link
 // import { Button } from "@/Components/ui/button"; // Shadcn Button
-// import { ScrollArea } from "@/components/ui/scroll-area"; // For scrollable sidebar nav
+// import { ScrollArea } from "@/Components/ui/scroll-area"; // For scrollable sidebar nav
 // import ShowDetails from './ShowDetails'; // Your component that renders Basic, Payment, etc.
 
 // // Import lucide-react icons

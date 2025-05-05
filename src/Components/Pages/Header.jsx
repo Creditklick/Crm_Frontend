@@ -9,8 +9,8 @@ import { BiRefresh } from "react-icons/bi";
 import { FaList } from "react-icons/fa";
 import { ClickAwayListener } from "@mui/material";
 import { Button } from "@/Components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
+import { Card, CardContent } from "@/Components/ui/card";
+import { Input } from "@/Components/ui/input";
 import {
   Menu,
   Search,
@@ -30,7 +30,7 @@ import {
   AreaChart,
 } from "lucide-react";
 import avatarnew from "./../../assets/logonew.jpg";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/Components/ui/avatar";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -38,7 +38,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "@/Components/ui/dropdown-menu";
 import { handleLogout } from "@/function/logout";
 
 const Header = ({

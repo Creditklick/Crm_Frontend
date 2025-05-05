@@ -5,7 +5,7 @@ import {  useNavigate } from 'react-router-dom';
 
 import SeniorDashboard from './SeniorDashboard';
 import Senior_Setting from './Senior_Setting';
-import { Input } from "@/components/ui/input";
+import { Input } from "@/Components/ui/input";
 import { MdSearch } from 'react-icons/md';
 import Senior_Footer from './Senior_Footer';
 import PeoplePage from './PeoplePage';

@@ -5,8 +5,8 @@ import {
     CardDescription,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card";
-import { Label } from "@/components/ui/label";
+} from "@/Components/ui/card";
+import { Label } from "@/Components/ui/label";
 
 
 import { Building2, MapPin, Phone, Info } from 'lucide-react';

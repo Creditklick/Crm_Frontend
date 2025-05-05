@@ -9,10 +9,10 @@ import {
     CardFooter,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea"; 
+} from "@/Components/ui/card";
+import { Input } from "@/Components/ui/input";
+import { Label } from "@/Components/ui/label";
+import { Textarea } from "@/Components/ui/textarea"; 
 import {
     Sheet,
     SheetContent,
@@ -22,9 +22,9 @@ import {
     SheetTrigger,
     SheetClose, 
     SheetFooter
-} from "@/components/ui/sheet";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Skeleton } from "@/components/ui/skeleton";
+} from "@/Components/ui/sheet";
+import { ScrollArea } from "@/Components/ui/scroll-area";
+import { Skeleton } from "@/Components/ui/skeleton";
 
 
 import {

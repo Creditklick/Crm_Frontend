@@ -14,8 +14,8 @@
 //     CardDescription,
 //     CardHeader,
 //     CardTitle,
-// } from "@/components/ui/card";
-// import { Label } from "@/components/ui/label";
+// } from "@/Components/ui/card";
+// import { Label } from "@/Components/ui/label";
 
 
 // import { ClipboardList, Info } from 'lucide-react'; // Or another relevant icon
