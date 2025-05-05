@@ -20,7 +20,7 @@ import {
     CardContent,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"; 
+} from "@/Components/ui/card"; 
 import { Info, TrendingUp, TrendingDown } from 'lucide-react';
 import { handleLogout } from '@/function/logout';
 const cardVariants = {

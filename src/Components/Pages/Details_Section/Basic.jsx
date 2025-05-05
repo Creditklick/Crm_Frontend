@@ -17,8 +17,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/Components/ui/button";
 
 
-import { Textarea } from "@/components/ui/textarea"; 
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { Textarea } from "@/Components/ui/textarea"; 
+import { ScrollArea } from "@/Components/ui/scroll-area";
 
 
 
@@ -26,7 +26,7 @@ import {
     ListRestart, NotebookPen, Save, History 
   } from 'lucide-react';
   
-  import { Skeleton } from "@/components/ui/skeleton";
+  import { Skeleton } from "@/Components/ui/skeleton";
 import {
     Sheet,
     SheetContent,
@@ -36,7 +36,7 @@ import {
     SheetTrigger,
     SheetClose,
     SheetFooter
-} from "@/components/ui/sheet";
+} from "@/Components/ui/sheet";
 import {
     Card,
     CardContent,
@@ -44,7 +44,7 @@ import {
     CardFooter,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card";
+} from "@/Components/ui/card";
 import {
     Select,
     SelectContent,
@@ -53,9 +53,9 @@ import {
     SelectLabel,
     SelectTrigger,
     SelectValue,
-} from "@/components/ui/select";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+} from "@/Components/ui/select";
+import { Input } from "@/Components/ui/input";
+import { Label } from "@/Components/ui/label";
 import { FiCalendar } from "react-icons/fi";
 import axios from 'axios'
 
