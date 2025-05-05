@@ -243,24 +243,22 @@ const Review = () => {
       const token = localStorage.getItem('token');
       
       // Step 1: Trigger web scraping
-      const scrapeResponse = await axios.post('https://crm-backend-msk3.onrender.com/searchapp/admin/trigger-scrape');
-       console.log("data is ",scrapeResponse.data.data);
-      if (!scrapeResponse.data.success) {
-        throw new Error('Scraping failed: ' + scrapeResponse.data.message);
-      }
+      // const scrapeResponse = await axios.post('https://crm-backend-msk3.onrender.com/searchapp/admin/trigger-scrape');
+      //  console.log("data is ",scrapeResponse.data.data);
+      // if (!scrapeResponse.data.success) {
+      //   throw new Error('Scraping failed: ' + scrapeResponse.data.message);
+      // }
 
       // Step 2: Process scraped data
-      const scrapedData = scrapeResponse.data.data;
+      // const scrapedData = scrapeResponse.data.data;
 
-      console.log("actaul data is ",scrapedData)
+      // console.log("actaul data is ",scrapedData)
       
       // Step 3: Combine scraped data with user prompt
+        // Scraped Website Data:
+        // ${JSON.stringify(scrapedData, null, 2)}
       const contextPrompt = `
-        Scraped Website Data:
-        ${JSON.stringify(scrapedData, null, 2)}
-        
         User Question: ${promptText}
-        
         Please provide a detailed response based on the scraped data above.
       `;
 
