@@ -2,7 +2,7 @@ import React, { useCallback, useState, useMemo } from "react";
 import { GoEye, GoEyeClosed } from "react-icons/go";
 import { ClipLoader } from "react-spinners";
 import axios from "axios";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ToastContainer, toast } from "react-toastify";

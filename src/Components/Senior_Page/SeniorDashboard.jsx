@@ -6,7 +6,7 @@ import {
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import { FaUserTie } from "react-icons/fa";
 import { useEffect , useState , useCallback } from "react";
 import { toast } from "react-toastify";

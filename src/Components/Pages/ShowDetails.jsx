@@ -5,7 +5,7 @@ import axios from "axios";
 import { FaBell } from "react-icons/fa";
 import { BiRefresh } from "react-icons/bi";
 import { ClickAwayListener } from "@mui/material";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import Basic from "./Details_Section/Basic";
 import Payment from "./Details_Section/Payment";
 import Contact from "./Details_Section/Contact";
