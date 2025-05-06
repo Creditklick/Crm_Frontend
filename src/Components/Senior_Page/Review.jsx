@@ -1,12 +1,5 @@
 
 
-<<<<<<< HEAD
-
-
-
-
-
-
 
 
 
@@ -1114,10 +1107,6 @@
 
 
 
-
-
-=======
->>>>>>> 47dc5b3747f381c40d86637b42084411d1eb7918
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaPaperPlane, FaComment, FaHistory, FaPlus, FaUser, FaSpinner, FaRobot } from 'react-icons/fa';
@@ -1605,25 +1594,4 @@ const Review = () => {
 };
 
 export default Review;
-<<<<<<< HEAD
 
-// // Optional Global CSS notes (if not using Tailwind utility classes directly in formatResponse)
-// /*
-// In your global CSS (e.g., index.css or App.css):
-
-// .message-content h1 { @apply text-2xl font-bold my-3; }
-// .message-content h2 { @apply text-xl font-bold my-3; }
-// .message-content h3 { @apply text-lg font-bold my-2; }
-// .message-content ul { @apply list-disc list-inside pl-4 my-2; }
-// .message-content ol { @apply list-decimal list-inside pl-4 my-2; }
-// .message-content li { @apply mb-1; }
-// .message-content p { @apply mb-2; }
-// .message-content a { @apply text-blue-600 hover:underline; }
-// .message-content pre { @apply bg-gray-800 text-gray-100 p-3 rounded-lg my-3 overflow-x-auto text-sm font-mono; }
-// .message-content code { font-family: monospace; } // Ensure code tag uses monospace
-// .message-content strong { @apply font-semibold; }
-// .message-content em { @apply italic; }
-
-// */
-=======
->>>>>>> 47dc5b3747f381c40d86637b42084411d1eb7918
