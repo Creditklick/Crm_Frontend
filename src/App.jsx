@@ -237,7 +237,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
           <LayoutWrapper
       isDarkMode={isDarkMode}
       setIsDarkMode={setIsDarkMode}
