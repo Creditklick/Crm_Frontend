@@ -1,5 +1,6 @@
 
 
+<<<<<<< HEAD
 
 
 
@@ -1115,6 +1116,8 @@
 
 
 
+=======
+>>>>>>> 47dc5b3747f381c40d86637b42084411d1eb7918
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaPaperPlane, FaComment, FaHistory, FaPlus, FaUser, FaSpinner, FaRobot } from 'react-icons/fa';
@@ -1602,6 +1605,7 @@ const Review = () => {
 };
 
 export default Review;
+<<<<<<< HEAD
 
 // // Optional Global CSS notes (if not using Tailwind utility classes directly in formatResponse)
 // /*
@@ -1621,3 +1625,5 @@ export default Review;
 // .message-content em { @apply italic; }
 
 // */
+=======
+>>>>>>> 47dc5b3747f381c40d86637b42084411d1eb7918
