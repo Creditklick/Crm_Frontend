@@ -8,8 +8,7 @@ import Persona from './Components/Pages/persona';
 import Signup from './Components/Login/signup';
 import Senior_Header from './Components/Senior_Page/Senior_Header';
 import SeniorDashboard from './Components/Senior_Page/SeniorDashboard';
-import GeminiChat from './Components/Senior_Page/GeminiChat';
-import Testing from './Components/Senior_Page/Testing'
+
 function LayoutWrapper({
   isDarkMode,
   setIsDarkMode,
@@ -138,20 +137,7 @@ function LayoutWrapper({
     element={<Signup />} 
   />
 
-  <Route 
-    path="/test" 
-    element={<Testing/>}
-  />
   
-  <Route 
-    path="/chatbox" 
-    element={
-      <ProtectedRoute
-        isAuthenticated={isAuthenticated}
-        element={<GeminiChat />}
-      />
-    }
-  />
 
 
 
