@@ -384,7 +384,7 @@ function LayoutWrapper({
               />} />
                
 
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/signuppage" element={<Signup />} />
           <Route path="/chatbox" element={
               <ProtectedRoute
                 isAuthenticated={isAuthenticated}
