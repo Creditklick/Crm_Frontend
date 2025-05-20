@@ -236,7 +236,7 @@
 //     try {
 //       const token = localStorage.getItem('token');
   
-//       // const scrapeResponse = await axios.post('http://localhost:8000/searchapp/admin/trigger-scrape');
+//       // const scrapeResponse = await axios.post('https://crm-backend-msk3.onrender.com/searchapp/admin/trigger-scrape');
 //       //  console.log("data is ",scrapeResponse.data.data);
 //       // if (!scrapeResponse.data.success) {
 //       //   throw new Error('Scraping failed: ' + scrapeResponse.data.message);

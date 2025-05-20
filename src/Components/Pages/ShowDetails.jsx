@@ -329,7 +329,7 @@ function ShowDetails({ isactive, objectdata }) {
     }
 
     try {
-      await axios.post(`https://crm-backend-msk3.onrender.com${endpoint}`, {
+      await axios.post(`http://localhost:8000${endpoint}`, {
         amount: inputValue,
       });
 

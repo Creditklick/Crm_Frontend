@@ -7,6 +7,7 @@ export const handleLogout = async (setIsAuthenticated,navigate) => {
     try {
 
      const response = await axios.post('https://crm-backend-msk3.onrender.com/searchapp/api/user/logout',{},
+        // const response = await axios.post('https://crm-backend-msk3.onrender.com/searchapp/api/user/logout',{},
        {
          headers: {
            'Content-Type': 'application/json',
